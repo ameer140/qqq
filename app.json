@@ -1,5 +1,5 @@
 {
-    "name": "سورس فريدوم بوت",
+    "name": "سورس سيمو ميوزك ",
     "description": "تشغيل الاغاني في المجموعات",
     "logo": "https://te.legra.ph/file/46fa55b49b85c084159ce.jpg",
     "keywords": [
@@ -18,12 +18,12 @@
      "API_ID": {
             "description": "لاتغيرها ابدا",
             "required": true,
-            "value": "19399491"
+            "value": "19303151"
         },
      "API_HASH": {
             "description": "لاتغيرها ابدا",
             "required": true,
-            "value": "eaa4f266934dfef23edb6d1f25e0b10f"
+            "value": "69fcf6ca06865b043feef7d8948574f5"
         },
         "BOT_TOKEN": {
             "description": "اكتب توكن",
@@ -45,22 +45,22 @@
         "SUDO_USERS": {
             "description": "اكتب ايديات المطورين",
             "required": true,
-            "value": "1854384004"
+            "value": "1277157702"
         },
         "OWNER_ID": {
             "description": "اكتب ايدي مالك البوت",
             "required": true,
-            "value": "1854384004"
+            "value": "1277157702"
         },
         "OWNER_USERNAME": {
             "description": "اكتب معرف المطور بدون @",
             "required": true,
-            "value": "rr8r9"
+            "value": "O_8_F"
         },
         "ALIVE_NAME": {
             "description": "اكتب اسم المطور",
             "required": true,
-            "value": "muntazer"
+            "value": "سيمو"
         }
     },
     "addons": [],
