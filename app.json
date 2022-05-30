@@ -11,7 +11,7 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/AIIPM",
+    "website": "http://t.me/AIIPM",
     "repository": "https://github.com/muntazer995/RR8R9",
     "success_url": "https://t.me/AIIPM",
     "env": {
