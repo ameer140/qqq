@@ -42,12 +42,12 @@ async def start_set(_, query: CallbackQuery):
         f"""ههݪاެ حبيب [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) ❤️‍🔥\n
 اެناެ بَۅت بَمميࢪ࣪اެتَ متَعدَدةَ ݪتشغِيݪ اެݪاغاެنِي فَي اެݪمَجمَۅعاتَ 🥇.
 
--› MᥲᎥꪀƚᥲᎥꪀᥱძ ხy -› [S᥆ᥙrᥴᥱ Frᥱᥱძ᥆ꪔ](http://t.me/xl444)
+-› MᥲᎥꪀƚᥲᎥꪀᥱძ ხy -› [S᥆ᥙrᥴᥱ Frᥱᥱძ᥆ꪔ](http://t.me/iPiiiii)
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url=f"https://t.me/{me_bot.username}?startgroup=true")
+                    InlineKeyboardButton("💸 اެضفني اެݪى مجمۅعتَك 💸", url=f"https://t.me/{me_bot.username}?startgroup=true")
                 ],[
                     InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="user_guide")
                 ],[
@@ -88,7 +88,7 @@ async def guide_set(_, query: CallbackQuery):
 @check_blacklist()
 async def commands_set(_, query: CallbackQuery):
     user_id = query.from_user.id
-    await query.answer("👍🏻قائمة الاوامر")
+    await query.answer("💸 قائمة الاوامر")
     await query.edit_message_text(
         f"""- تابع الازرار في الاسفل ↓
 
@@ -110,7 +110,7 @@ async def commands_set(_, query: CallbackQuery):
 async def user_set(_, query: CallbackQuery):
     await query.answer("👍🏻اوامر التشغيل")
     await query.edit_message_text(
-        f"""- تابع الاوامر في الاسفل ↓
+        f"""- @iPiiii تابع الاوامر في الاسفل مطور السورس ↓
 
 -› .شغل - بالرد على ملف صوتي او اسم أغنية
 -› .اصعد - لصعود حساب المساعد في المكالمة
@@ -139,12 +139,12 @@ async def at_set_markup_menu(_, query: CallbackQuery):
     user_id = query.from_user.id
     a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
     if not a.can_manage_voice_chats:
-        return await query.answer("💡 وخر ايدك لاتبعبص محد يكدر يدوس هنا بس الي عنده صلاحية المكالمات !", show_alert=True)
+        return await query.answer("💡 وخر ايدك انت خلك عضو محد يكدر يدوس هنا بس الي عنده صلاحية المكالمات !", show_alert=True)
     chat_id = query.message.chat.id
     user_id = query.message.from_user.id
     buttons = menu_markup(user_id)
     if chat_id in QUEUE:
-        await query.answer("تم فتح لوحة التحكم 👍🏻")
+        await query.answer("تم فتح لوحة التحكم 💸")
         await query.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(buttons))
     else:
         await query.answer("معݪش ، ماެفي شي مشتغݪ ياެعيني🌵.", show_alert=True)
@@ -155,7 +155,7 @@ async def at_set_markup_menu(_, query: CallbackQuery):
 async def is_set_home_menu(_, query: CallbackQuery):
     a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
     if not a.can_manage_voice_chats:
-        return await query.answer("💡 وخر ايدك لاتبعبص محد يكدر يدوس هنا بس الي عنده صلاحية المكالمات !", show_alert=True)
+        return await query.answer("💡 وخر ايدك انت خلك عضو محد يكدر يدوس هنا بس الي عنده صلاحية المكالمات !", show_alert=True)
     await query.answer("control panel closed")
     user_id = query.message.from_user.id
     buttons = stream_markup(user_id)
@@ -167,7 +167,7 @@ async def is_set_home_menu(_, query: CallbackQuery):
 async def on_close_menu(_, query: CallbackQuery):
     a = await _.get_chat_member(query.message.chat.id, query.from_user.id)
     if not a.can_manage_voice_chats:
-        return await query.answer("💡 وخر ايدك لاتبعبص محد يكدر يدوس هنا بس الي عنده صلاحية المكالمات !", show_alert=True)
+        return await query.answer("💡 وخر ايدك انت خلك عضو محد يكدر يدوس هنا بس الي عنده صلاحية المكالمات !", show_alert=True)
     await query.message.delete()
 
 
