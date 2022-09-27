@@ -1,5 +1,5 @@
 {
-    "name": "سورس فريدوم بوت",
+    "name": "سورس نفلكس بوت",
     "description": "تشغيل الاغاني في المجموعات",
     "logo": "https://te.legra.ph/file/46fa55b49b85c084159ce.jpg",
     "keywords": [
@@ -11,19 +11,19 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/xl444",
-    "repository": "https://github.com/muntazer995/RR8R9",
-    "success_url": "https://t.me/rr8r9",
+    "website": "https://t.me/Mus_3b2",
+    "repository": "https://github.com/Akeeni/AkeenM2",
+    "success_url": "https://t.me/iPiiiii",
     "env": {
      "API_ID": {
             "description": "لاتغيرها ابدا",
             "required": true,
-            "value": "19399491"
+            "value": "16228886"
         },
      "API_HASH": {
             "description": "لاتغيرها ابدا",
             "required": true,
-            "value": "eaa4f266934dfef23edb6d1f25e0b10f"
+            "value": "b7de6ba01d7af6fc2d99375b5fbd0f82"
         },
         "BOT_TOKEN": {
             "description": "اكتب توكن",
@@ -45,22 +45,22 @@
         "SUDO_USERS": {
             "description": "اكتب ايديات المطورين",
             "required": true,
-            "value": "1854384004"
+            "value": "5186954055"
         },
         "OWNER_ID": {
             "description": "اكتب ايدي مالك البوت",
             "required": true,
-            "value": "1854384004"
+            "value": "5186954055"
         },
         "OWNER_USERNAME": {
             "description": "اكتب معرف المطور بدون @",
             "required": true,
-            "value": "rr8r9"
+            "value": "iPiiiii"
         },
         "ALIVE_NAME": {
             "description": "اكتب اسم المطور",
             "required": true,
-            "value": "muntazer"
+            "value": "Akeen"
         }
     },
     "addons": [],
