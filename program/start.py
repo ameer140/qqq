@@ -92,7 +92,7 @@ async def start_(c: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🥇 اެضفني اެݪى مجمۅعتَك 🥇", url=f"https://t.me/{me_bot.username}?startgroup=true")
+                    InlineKeyboardButton(" 💸 اެضفني اެݪى مجمۅعتَك 💸 ", url=f"https://t.me/{me_bot.username}?startgroup=true")
                 ],[
                     InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="user_guide")
                 ],[
@@ -121,7 +121,7 @@ async def alive(c: Client, message: Message):
             ]
         ]
     )
-    text = f"**- تابع الاوامر في الاسفل ↓ **"
+    text = f"**- @iPiiii تابع الاوامر في الاسفل مطور سورس ↓ **"
     await c.send_photo(
         chat_id,
         photo=f"https://te.legra.ph/file/402c519808f75bd9b1803.jpg",
