@@ -13,7 +13,7 @@
     ],
     "website": "https://t.me/Mus_3b2",
     "repository": "https://github.com/Akeeni/AkeenM2",
-    "success_url": "https://t.me/iPiiiii",
+    "success_url": "https://t.me/iPiiii",
     "env": {
      "API_ID": {
             "description": "لاتغيرها ابدا",
@@ -55,7 +55,7 @@
         "OWNER_USERNAME": {
             "description": "اكتب معرف المطور بدون @",
             "required": true,
-            "value": "iPiiiii"
+            "value": "iPiiii"
         },
         "ALIVE_NAME": {
             "description": "اكتب اسم المطور",
