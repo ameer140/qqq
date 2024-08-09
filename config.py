@@ -5,26 +5,26 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
-SESSION_NAME = getenv("SESSION_NAME", "session")
+API_ID = int(getenv("API_ID" ,"24169802"))
+API_HASH = getenv("API_HASH" ,"1134fb97e7272c92749ceeaa48007d6d")
+BOT_TOKEN = getenv("BOT_TOKEN","7234089944:AAGASWrhvYPsJfJ2VDfWVu2XJb3HXurxQOA")
+SESSION_NAME = getenv("SESSION_NAME", "session", "1BJWap1wBuxs8YxExbbFxI8gDGP5sBzju5r0N7IZM2CmfqE-QPxfKNwmP6iqWuFsY5sdUy0wcyQ4jpfHW1LbQpemfG4YyjNptju0nwjftQoaBhbW2TUoMnV_-ma7Ozdq2di4ElYWMJB_WOVqj-KmTr_6aZmBtcJBi4pLDkfWwPKQtG1Oc_NoMBA1SkeIu36wGZ8X4VAcMw2aiLlkEgtwtBg6Xbir47XYgcuTij67hUwW7_zIgoNNnuVDWjGGcCG0gYy6kM1JYHYnLdDVZWnl6-t5W2UHTz2TVBhqsGeDNuorUtxnToDjpoKzvJ3b56EqeqQmKGkw7m88pHtQ99FwOhXsffrBTAtc=")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME")
-ALIVE_NAME = getenv("ALIVE_NAME")
-BOT_USERNAME = getenv("BOT_USERNAME")
+OWNER_USERNAME = getenv("OWNER_USERNAME" ,"A_M_A_F_1")
+ALIVE_NAME = getenv("ALIVE_NAME","ameer")
+BOT_USERNAME = getenv("BOT_USERNAME" ,"adgjod_bot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/levina-lab/video-stream")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "VeezSupportGroup")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "A_M_A_F_A")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Naeree_2")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID" ,"7182289925").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS" , "7182289925").split())) 
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
